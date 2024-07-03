@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+}
+
+
+.left{
+    height: 100%;
+    width: 50%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    height: 90%;
+    width: 90%;
+    /* background-color: beige; */
+    background-image: url(/botel.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.mid{
+    height: 150%;
+    width: 30%;
+    /* background-color: brown; */
+    padding: 0 3vw;
+}
+.one h3{
+    font-weight: 300;
+}
+
+.one p{
+    color: aqua;
+    font-weight: 100;
+    padding-top: 1vw;
+}
+
+.one h4{
+    /* color: red; */
+    font-size: 3vh;
+    font-weight: 500;
+}
+
+.one span{
+    color: black;
+}
+.two p{
+    color: black;
+    padding-bottom: 1vw;
+}
+.two h4{
+    font-sixe: 1vw;
+}
+
+.two h5{
+    font-size: 1.8vw;
+    font-weight: 200;
+
+}
+
+.three{
+    display: flex;
+    padding-top: 3vw;
+    padding-bottom: 1vw;
+    border-bottom: 1px solid black;
+
+}
+
+
+.four{
+    height: 10%;
+    width:100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 1vw;
+    margin-bottom:1vw;
+    border-bottom: 1px solid black;
+}
+.free{
+    height: 90%;
+    width: 30%;
+    /* background-color: blueviolet; */
+}
+.free i{
+    padding-left: 1.5vw;
+}
+.free p{
+    padding-left:1vw ;
+}
+
+
+
+.box1{
+    height: 15%;
+    width: 50%;
+    background-color:white;
+    margin-right: 1vw;
+}
+.box1 p{
+    color: black;
+}
+.box1 h6{
+    color: rgb(13, 118, 118);
+    padding-top: .5vw;
+}
+
+.box2{
+    height: 15%;
+    width:50%;
+    background-color:white;
+}
+.box2 p{
+    color: black;
+}
+
+.box2 h6{
+    color: rgb(13,118,113);
+    padding-top: .5vw;
+}
+
+.five{
+    padding-top: 1vw;
+}
+.five p{
+    color: black;
+}
+
+.class button{
+    background-color: transparent;
+    border: .2vw solid rgb(145, 133, 199);
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top: .7vw;
+    padding: .7vw .8vw;
+}
+.info p{
+    color: black;
+
+}
+.info{
+    border-bottom: 1px solid black;
+}
+
+
+.right{
+    height: 90%;
+    width: 20%;
+    /* background-color: chocolate; */
+    padding-left: 1vw;
+}
+.right h1{
+    font-size:.9vw;
+}
+.right span{
+    color: aqua;
+}
+.right button{
+    padding: .5vw 1vw;
+}
+
+.end{
+    display: flex;
+    flex-direction: column;
+}
+.end button{
+    margin-bottom: 1vw;
+    border-radius: 30px;
+    text-decoration: none;
+    border: none;
+}
